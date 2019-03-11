@@ -32,11 +32,11 @@ function clean(text) {
         return text;
 }
 
-const prefix = "البريفكس";
+const prefix = "-";
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
-  client.user.setGame(`Support Magic |${prefix}new`);
+  client.user.setGame(`Wings Support |${prefix}new`);
 });
 
 
@@ -114,4 +114,4 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login("NTMxMTE4ODQzOTQzMTkwNTI4.D2g_eA.__zSPPs4hhsg11HhEQCizyZ8dTM");
